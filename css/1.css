@@ -1,0 +1,312 @@
+body{
+
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background:white ;
+    height: 100%;
+    font-size: 100%; 
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+.noidung1_top{
+    background: url(../img/blog.jpg)top center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.noidung_tren{
+    width: 100%;
+}
+:root{
+    --font1:font-family: 'Roboto', sans-serif;
+}
+a.link,a.active,a.visited{
+    text-decoration: none;
+}
+.menu ul{
+    list-style: none;
+    text-decoration: none; 
+    display: flex;
+    margin-left: 150px;
+}
+.menu a{
+    color: white;
+    margin: 20px;
+    box-sizing: inherit;
+    justify-content: center;
+}
+.login ul{
+    list-style: none;
+    display: flex;
+    margin-left: 350px;
+}
+.login a{
+    color: white;
+}
+.ngonngu img{
+    margin-left: -19px;
+}
+.ngonngu span{
+    color: white;
+    margin-left: -30px;
+}
+.conten_duoi{
+    list-style: none;
+}
+.conten_duoi h1{
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+    color: white;
+    font-family: 28px 'Roboto', sans-serif;
+}
+.chu_nho{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 28px;
+    font-family:'Roboto', sans-serif;
+}
+.nut_bat_dau{
+    margin: 50px 550px;
+    line-height: 45px;
+    font-family: 'Roboto' sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    border-radius: 100px;
+    text-align: center;
+    background-image: linear-gradient(to right,#b90808,#bb1600);
+}
+.start_button{
+    color: white;
+}
+.noidung_themes{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+}
+.hang_1 h1{
+    display: flex;
+    justify-content: center;
+}
+.hang_2{
+    margin: 30px 50px;
+    display: flex;
+    font-family:'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: center;
+}
+.hang_3{
+    margin-left: 100px;
+}
+.tong_whysimplesite{
+    box-sizing: border-box;
+    background-color: #f6f7f9;
+    width: 100%;
+}
+.tieude{
+    display: flex;
+    justify-content: center;
+}
+.whysimplesite {
+    margin-top: 40px;
+    margin-bottom: 65px;
+    display: flex;
+}
+.whysimplesite .cottrai{
+    margin-left: 20px;
+    margin-right: 50px;  
+}
+.whysimplesite .cotphai{
+    margin-right: 70px; 
+}
+.buttonstart{
+    margin-right: 190px; 
+    line-height: 45px;
+    font-family: 'Roboto' sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+    border-radius: 100px;
+    text-align: center;
+    background-image: linear-gradient(to right,#a51300,#bb1600);
+}
+.nutbutton{
+    color: white;
+}
+.mobileready h1{
+    margin-top: 40px;
+    margin-left: 150px;
+}
+.mobileready h3{
+    margin-left: 150px;
+}
+.mobileready .phancot{
+    display: flex;
+    justify-content: center;
+}
+.mobileready .phancot .cottrai{
+    display: flex;
+    text-align: right;
+}
+.mobileready .phancot .cottrai ul{
+    margin-left: 100px;
+    margin-right: 200px;
+}
+.mobileready .phancot .cotphai img{
+    max-width: 600px;
+    margin-top: -90px;
+    margin-bottom: 200px;
+    margin-right: 20px;
+}
+.button a{
+    display: flex;
+    justify-content: center;
+    margin-left: 240px;
+    margin-right: 820px;
+    margin-top: -150px;
+    margin-bottom: 100px;
+    line-height: 40px;
+    font-family: 'Roboto' sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+    border-radius: 100px;
+    background-image: linear-gradient(to right,#a51300,#bb1600);
+}
+.nut_button{
+    color: white;
+}
+.features{
+    margin-bottom: 90px;
+    box-sizing: border-box;
+    background-color: #f6f7f9;
+    width: 100%;
+}
+.features .hang1{
+    display: flex;
+    justify-content: center;
+    color: #222;
+    font-weight: 400;
+} 
+.features .hang2{
+    display: flex;
+    justify-content: center;
+}
+.features .hang3{
+    display: flex;
+    justify-content: center;
+}
+.features .hang3 .cot1{
+    margin: 0px 40px;
+}
+.features .hang3 .cot2{
+    margin: 8Opx 40px;
+}
+.features .hang3 .cot3{
+    margin: 70px 40px;
+}
+.features .hang3 .cot4{
+   margin: 0px auto;
+}
+.features .hang4{
+    margin: 0px 500px;
+    line-height: 45px;
+    font-family: 'Roboto' sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+    border-radius: 100px;
+    text-align: center;
+    background-image: linear-gradient(to right,#a51300,#bb1600);
+}
+.features .hang4 .nutbuton{
+    color: white;
+}
+.tongnoidung{
+    margin-top: 60px;
+    box-sizing: border-box;
+    background-color: #333;
+    width: 100%;
+}
+.noidung{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.noidung .cot1 .ten1{
+    margin: 20px 150px;
+}
+.noidung .cot1 .ten2{
+    margin-left: 150px;
+    margin-right: 750px;
+}
+.noidung .cot1 .icon{
+    display: flex;
+    margin: 20px 150px;
+}
+.iconyoutube{
+    margin-left: 10px;
+}
+.icontwitter{
+    margin-left: 10px;
+}
+.iconlinkedin{
+    margin-left: 10px;
+}
+.noidung .cot2 .hang1{
+    margin-top: 20px;
+    margin-left: -650px;
+}
+.noidung .cot2 .hang2{
+    display: flex;
+    margin-top: 10px;
+    margin-left: -650px;
+}
+.noidung4hang .fea{
+    margin-left: -1px;
+}
+.noidung4hang li{
+    display: flex;
+    text-decoration: none;
+}
+.noidung4hang li a{
+    color: white;
+    margin-top: 10px;
+}
+.cot3 .ten1{
+    margin-top: 20px;
+    margin-left: -450px;
+}
+.noidung3hangdoc{
+    margin-top: 10px;
+    margin-left: -450px;
+}
+.noidung3hangdoc li{
+    display: flex;
+    text-decoration: none;
+}
+.noidung3hangdoc li a{
+    color: white;
+    margin-top: 10px;
+}
+.cot4 .ten1{
+    margin-top: 20px;
+    margin-left: -250px;
+}
+.cot4 .hang2doc{
+    margin-top: 10px;
+    margin-left: -250px;
+}
+.hang2doc li{
+    display: flex;
+    text-decoration: none;
+}
+.hang2doc Li a{
+    color: white;
+    margin-top: 10px;
+}
